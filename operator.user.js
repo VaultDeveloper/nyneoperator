@@ -3,8 +3,8 @@
 // @author      Marco (Nouveau)
 // @namespace   http://jefaisdestrucs.pe.hu/Nyne/
 // @description L'opérateur Nyne est votre bras droit dans ce monde brutal.
-// @include     http://nyne.oriic.org/
-// @include     http://www.nyne.oriic.org/
+// @include     http://nyne.oriic.org/*
+// @include     http://www.nyne.oriic.org/*
 // @version     0.2
 // @updateURL   http://jefaisdestrucs.pe.hu/Nyne/operator.user.js
 // @connect     jefaisdestrucs.pe.hu/Nyne/*
