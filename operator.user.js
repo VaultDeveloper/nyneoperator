@@ -172,40 +172,8 @@ function updateDatabase(nomColonie, puissance, exo, lune)
   xhr.send(null);
 }
 
-/* Obtenir un numero a partir de la lettre de la flotte */
-/* Ca serai tellement plus court en ASM */
-function flotteToNumber(flotte)
-{
-  var Number;
-  switch (flotte)
-  {
-    case 'A':
-      Number = 0;
-      break;
-    case 'B':
-      Number = 1;
-      break;
-    case 'C':
-      Number = 2;
-      break;
-    case 'D':
-      Number = 3;
-      break;
-    case 'E':
-      Number = 4;
-      break;
-    case 'F':
-      Number = 5;
-      break;
-    case 'G':
-      Number = 6;
-      break;
-    case 'H':
-      Number = 7;
-      break;
-  }
-  return Number;
-}
+/* Obtenir un numero a partir de la lettre de la flotte (by Codrer) */
+function flotteToNumber(flotte) { return flotte.charCodeAt(0)-65 ; }
 
 /* Not all browser support some methods so... */
 function contains(tableau, contenu)
